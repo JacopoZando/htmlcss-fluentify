@@ -5,7 +5,7 @@
 }
 
 .wrapper {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -18,7 +18,7 @@ header {
   background-size: 1000px;
   background-repeat: no-repeat;
   background-position: 100% 100%;
-  height: 550px;
+  height: 500px;
   position: relative;
 }
 nav {
@@ -88,7 +88,7 @@ border: solid 1px white;
 border-radius: 5px;
 background: none;
 }
-
+/* LIVELLO UNO */
 /* PARTE DEL TITOLO */
 
 .titolo {
@@ -120,8 +120,39 @@ background: none;
   transform: translate(-50%, -50%);
 }
 
+/* LIVELLO DUE  */
+
 .due {
   text-align: center;
+}
+.due::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.article {
+  width: 20%;
+}
+
+.leftdue, .middledue, .rightdue {
+  float: left;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: 5%
+}
+.leftdue {
+  margin-left: 15%;
+}
+.imgdue {
+  width: 100px;
+  height: 100px;
+
+}
+
+.articletitle {
+  display: block;
+  color: green;
 }
 
 .tre {
