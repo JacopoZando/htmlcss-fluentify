@@ -166,11 +166,42 @@ background: none;
 }
 
 .articletext {
+}
+
+/* LIVELLO TRE */
+
+.tre {
+  text-align: center;
+}
+.tre::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.articletre {
+  width: 30%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  float: left;
+  margin-left: 15%;
+  border: 1px solid black;
 
 }
 
-.tre {
-  height: 25vh;
+.imgtre {
+  width: 100%;
+}
+
+.righttre {
+  text-align: left;
+  float: right;
+  margin-right: 15%;
+  margin-left: 10%;
+}
+
+#linktre {
+  margin-top: 5px;
+
 }
 
 footer {
